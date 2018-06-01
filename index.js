@@ -34,7 +34,7 @@ class Trip {
   }
   
   passenger() {
-    console.log(store.passengers.filter(x => x.id === this.passengerId));
+    return store.passengers.filter(x => x.id === this.passengerId);
     console.log(this);
    }
 }
