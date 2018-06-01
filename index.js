@@ -35,6 +35,6 @@ class Trip {
   
   passenger() {
     return store.passenger.filter(passenger =>
-    {return })
+    {return passenger.})
   }
 }
