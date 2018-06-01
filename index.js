@@ -19,7 +19,6 @@ class Driver {
   }  
   passengers() {
     console.log(store.passengers.filter(x => {return x.id === this.trips().passengerId}))
-    console.log(this.trips().passengerId)
   }
 }
 
