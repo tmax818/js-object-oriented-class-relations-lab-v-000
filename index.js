@@ -34,6 +34,6 @@ class Trip {
   }
   
   passenger() {
-    passenger
+    return 
   }
 }
