@@ -34,7 +34,7 @@ class Trip {
   }
   
   passenger() {
-    console.log(store.passengers.name);
+    console.log(store.passengers.filter(x => x.name === 'Bob'));
     console.log(this);
    }
 }
