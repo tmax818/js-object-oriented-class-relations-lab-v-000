@@ -1,6 +1,6 @@
 let store = {
   drivers: [],
-  
+  passengers: []
 };
 
 let userId = 0;
