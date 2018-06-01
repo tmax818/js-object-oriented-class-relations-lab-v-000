@@ -16,7 +16,7 @@ class Driver {
   
   trips() {
     return store.trips.filter(x => {return x.driverId === this.id});
-  }
+  }  
 }
 
 class Passenger {
@@ -25,6 +25,9 @@ class Passenger {
     this.name = name;
     
     store.passengers.push(this);
+  }
+    trips() {
+    return store.trips.filter(x => {return x.passengerId === this.id});
   }
 }
 
