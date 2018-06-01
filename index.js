@@ -10,7 +10,10 @@ class Driver {
     this.id = ++userId;
     this.name = name;
     
-    store.drivers.push(this)
+    store.drivers.push(this);
   }
+}
+
+class Passenger {
   
 }
