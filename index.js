@@ -1,6 +1,6 @@
 let store = {
-  drivers: [
-    ]
+  drivers: [],
+  
 };
 
 let userId = 0;
