@@ -15,7 +15,7 @@ class Driver {
   }
   
   trips() {
-    console.log(store.trips.filter(x => {return x.driverId === this.id}));
+    return store.trips.filter(x => {return x.driverId === this.id});
   }
 }
 
