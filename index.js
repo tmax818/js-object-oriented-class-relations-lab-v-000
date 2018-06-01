@@ -13,6 +13,10 @@ class Driver {
     
     store.drivers.push(this);
   }
+  
+  trips() {
+    console.log()
+  }
 }
 
 class Passenger {
