@@ -1,5 +1,5 @@
 let store = {
-  
+  drivers: []
 }
 
 class Driver {
