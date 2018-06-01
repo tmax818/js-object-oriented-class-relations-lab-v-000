@@ -1,7 +1,9 @@
 let store = {
   drivers: [
     ]
-}
+};
+
+let userId = 0;
 
 class Driver {
   constructor (name) {
