@@ -34,6 +34,6 @@ class Trip {
   }
   
   passenger() {
-    console.log(this);
+    console.log(store.drivers);
    }
 }
