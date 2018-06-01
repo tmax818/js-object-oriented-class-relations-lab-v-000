@@ -15,7 +15,7 @@ class Driver {
   }
   
   trips() {
-    console.log()
+    console.log(this)
   }
 }
 
