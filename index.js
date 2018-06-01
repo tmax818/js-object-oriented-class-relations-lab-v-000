@@ -19,7 +19,7 @@ class Driver {
   }  
   passengers() {
     console.log(store.passengers)
-    console.log(this.trips().)
+    console.log(this.trips())
   }
 }
 
