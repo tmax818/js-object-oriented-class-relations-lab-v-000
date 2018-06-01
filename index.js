@@ -34,7 +34,7 @@ class Trip {
   }
   
   passenger() {
-    console.log(store.passengers[0]);
+    console.log(store.passengers.id);
     console.log(this);
    }
 }
