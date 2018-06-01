@@ -34,6 +34,6 @@ class Trip {
   }
   
   passenger() {
-    return store.passenger.
+    return store.passenger.filter()
   }
 }
