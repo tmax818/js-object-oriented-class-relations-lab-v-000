@@ -19,6 +19,7 @@ class Driver {
   }  
   passengers() {
     console.log(store.trips)
+    console.log(this.id)
   }
 }
 
