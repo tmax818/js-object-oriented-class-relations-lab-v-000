@@ -18,7 +18,7 @@ class Driver {
     return store.trips.filter(x => {return x.driverId === this.id});
   }  
   passengers() {
-    console.log(this.trips())
+    console.log(this.trips().map(x => x.passengerId))
   }
 }
 
