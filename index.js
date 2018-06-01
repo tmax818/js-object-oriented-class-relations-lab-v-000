@@ -34,7 +34,6 @@ class Trip {
   }
   
   passenger() {
-    return store.passengers.filter(passenger =>
-    {return passenger.userId === this.id})
-  }
+    console.log(this);
+   }
 }
